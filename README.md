@@ -6,8 +6,8 @@
 
 ##结构
 
-
->	  |_ main
+>
+	  |_ main
 	|	 |- java
 	|	    |_ jsyf.sys.web
 	|			|- adver
