@@ -6,10 +6,7 @@
 
 ##结构
 
-|-jsyf-sys                   
-	|—bin		
-	|-docs                      
-	|-src
+
 >	  |_ main
 	|	 |- java
 	|	    |_ jsyf.sys.web
