@@ -1,10 +1,13 @@
 #项目目录
 
+
+
 ##背景
 
-为快速找出接口所在文件夹的位置。
+为快速找出接口所在facade层中的位置。
 
 ##结构
+
 >
 	|-jsyf-sys-facade
 		|-src
@@ -62,8 +65,8 @@
 								|-SParamLabelValueEntity.java								#参数标签属性值表的实体类
 								|-SPlatformVideoEntity.java									#平台视频表的实体类
 								|-SRecommendArticleEntity.java								#推荐资讯文章管理表的实体类
-								|-SRecruitAreaEntity.java									#
-								|-SRecruitEntity.java										#
+								|-SRecruitAreaEntity.java									#区域求职表的实体类
+								|-SRecruitEntity.java										#求职表的实体类
 								|-SRoleEntity.java											#店铺角色表的实体类
 								|-SRoleMenuEntity.java										#店铺角色菜单关联表的实体类
 								|-SSecondHandEquipmentEntity.java							#二手设备表的实体类
@@ -93,14 +96,14 @@
 								|_Test1Entity.java
 							|_t
 								|-CenterDataCustomerRelevanceEntity.java					#同步二手汇用户数据的中间表的实体类
-								|-SignatureBean.java										#
-								|-TAreasOld2Entity.java										#
+								|-SignatureBean.java										#微信分享接口用的实体类
+								|-TAreasOld2Entity.java										#老版地域表的实体类
 								|-TAttachmentEntity.java									#附件表的实体类
 								|-TCityEntity.java											#城市表的实体类
 								|-TDistrictEntity.java										#区县表的实体类
 								|-TEnquiryManageEntity.java									#询价管理，兼容新机及二手机询价表的实体类
 								|-TEquipmentFeedbackEntity.java								#机型反馈表的实体类
-								|-Ticket.java												#
+								|-Ticket.java												#微信分享接口用的实体类
 								|-TMenuEntity.java											#菜单表的实体类
 								|-TNoticeEntity.java										#公告表的实体类
 								|-TParamEntity.java											#系统参数字典表的实体类
@@ -335,7 +338,7 @@
 								|_TipsFacade.java											#消息模块接口
 							|-vote
 								|_VoteActivityFacade.java									#投票专题接口
-							|_SysUserFacade.java											#
+							|_SysUserFacade.java											#通用系统功能接口
 						|_serial
 							|_SerializationOptimizerImpl.java								#序列化
 		|_pom.xml
